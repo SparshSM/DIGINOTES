@@ -1,0 +1,29 @@
+.homecss {
+    
+    background-color: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61, 80, 223, 0.603) 0%, rgba(0,212,255,1) 337%, rgba(25,42,166,1) 100%);
+/* height: 100vh; */
+  }
+  .navback{
+    background-color: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61, 80, 223, 0.603) 0%, rgba(0,212,255,1) 337%, rgba(25,42,166,1) 100%);
+  }
+  .notes {
+    border-top-right-radius: 42px;
+  }
+  
+  .review-text {
+    background: #e3e1eb;
+  }
+.addlabel{
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+}
+input[type="text"],input[type="text"]:focus   {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline-width: 0;
+
+}
