@@ -1,6 +1,6 @@
 const mongoose  = require("mongoose");
 
-const mongoURI ="mongodb://localhost:27017/notebook?directConnection=true&readPreference=primary"
+const mongoURI ="mongodb+srv://sparshSM:Sparsh01@cluster0.o2rxg.mongodb.net/notebook"
 
 const connectToMongo = ()=>{
     mongoose.connect(mongoURI,()=>{
